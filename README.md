@@ -113,6 +113,8 @@ NoSQL 資料庫，連 schema 都可以不用定義，方便。
 SKILL instructions.md 參考 [instructions.md](hermes_tools/instructions.md)
 讀取工具的程式碼參考 [hermes_tools.py](hermes_tools/tools.py)
 
+#### 串接 telegram 後畫面
+
 ![tg](assert/plant.png)
 
 ## 後續發展應用
