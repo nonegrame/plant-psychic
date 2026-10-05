@@ -105,9 +105,18 @@ NoSQL 資料庫，連 schema 都可以不用定義，方便。
 植物種類就靠使用者輸入;有種類盆栽大小後寫入 SKILL，Hermes 就能自己撈資料並根據植物種類及盆栽大小提供建議。
 訊息平臺則使用 telegram，搭配 personality kawaii 會非常好玩。
 
+### tools
+
+給 Hermes Agent 使用的工具，主要是查詢 Firestore 的資料。
+查詢出來的資料會經過 pandas DataFrame 預處理，避免大量混雜資料反而塞爆 context，方便 LLM 模型直接取得趨勢分析。
+
+SKILL instructions.md 參考 [instructions.md](hermes_tools/instructions.md)
+讀取工具的程式碼參考 [hermes_tools.py](hermes_tools/tools.py)
+
 ## 後續發展應用
 
 整合更多感測器，但是便宜的感測器都買了剩下的都有點貴。
+
 整合圖片功能，使用 ESP32-CAM 拍攝植物照片，並使用 AI 模型分析植物的健康狀態。
 - 不過同時也要模型本身能解讀照片，目前我用的模型僅支援文字，暫無擴展計劃。
 
