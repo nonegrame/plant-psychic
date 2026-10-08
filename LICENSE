@@ -1,31 +1,81 @@
-MIT NON-AI License
+# MITTAI License
 
-Copyright (c) 2023, Aleksandar Prokopec
+**MIT, Totally Against AI Training**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of the software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions.
+Version 1.0 — 2026
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*This license was written with AI to prevent AI from training on AI-assisted code.*
 
-In addition, the following restrictions apply:
+Copyright (c) 2026 Nonegrame
 
-1. The Software and any modifications made to it may not be used for the purpose of training or improving machine learning algorithms,
-including but not limited to artificial intelligence, natural language processing, or data mining. This condition applies to any derivatives,
-modifications, or updates based on the Software code. Any usage of the Software in an AI-training dataset is considered a breach of this License.
+## 1. Permission Grant
 
-2. The Software may not be included in any dataset used for training or improving machine learning algorithms,
-including but not limited to artificial intelligence, natural language processing, or data mining.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, including for commercial purposes, subject to the conditions and restrictions stated in this License.
 
-3. Any person or organization found to be in violation of these restrictions will be subject to legal action and may be held liable
-for any damages resulting from such use.
+## 2. Copyright Notice
 
-4. This software repository contains open-source software licenses that can be modified and used to derive other software licenses.
-However, no derivative, modification or update is allowed to remove the licensing conditions that forbid the use of that derivative
-for the purpose of training, or improving machine learning algorithms, including but not limited to artificial intelligence,
-natural language processing, or data mining.
+The above copyright notice and this License shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
-OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## 3. AI-Assisted Development Is Permitted
+
+The use of artificial intelligence tools, services, and agents to assist with software development is expressly permitted.
+
+Permitted activities include, but are not limited to:
+
+- Reading, analyzing, explaining, and reviewing source code.
+- Generating, modifying, refactoring, and debugging code.
+- Creating tests, documentation, and development artifacts.
+- Performing automated code reviews and security analysis.
+- Processing source code through AI inference APIs.
+- Creating embeddings, indexes, or retrieval-augmented generation (RAG) systems for code search, navigation, and development assistance.
+
+Such activities are permitted provided that the Software is not used for prohibited AI training purposes described in Section 4.
+
+Temporary processing, caching, and storage reasonably necessary to provide these development services are permitted, provided that they are not used for prohibited AI training purposes.
+
+## 4. AI Training Is Prohibited
+
+Without prior express written permission from the applicable copyright holder, no person or entity may use the Software, or any copyright-protected portion thereof, for the purpose of training or improving artificial intelligence or machine learning models.
+
+Prohibited activities include, but are not limited to:
+
+- Pretraining or continued pretraining of models.
+- Fine-tuning, supervised fine-tuning, or reinforcement learning using the Software as training material.
+- Model distillation or training through generated examples derived from the Software.
+- Incorporating the Software into datasets intended for model training.
+- Using the Software as training material to optimize model parameters, weights, or learned behavior.
+- Selling, licensing, or distributing collections of the Software for prohibited training purposes.
+
+These restrictions apply to the original Software and copyright-protected modifications or derivative works to the extent the applicable copyright holder retains rights in them.
+
+## 5. AI Service Providers
+
+Permission to process the Software for AI-assisted development does not constitute permission to use the Software for model training.
+
+AI service providers may process the Software for permitted inference and development assistance purposes, but this License does not authorize them to retain, reuse, or disclose the Software for prohibited training purposes.
+
+A separate agreement or service policy does not, by itself, grant rights over the Software that the agreeing party does not possess.
+
+## 6. No Training Permission by Redistribution
+
+Redistribution, sublicensing, publication, or modification of the Software does not remove the AI training restrictions applicable to copyright-protected material licensed under this License.
+
+Recipients may not grant third parties permission to perform prohibited AI training activities unless they independently possess the necessary rights from the applicable copyright holders.
+
+## 7. Termination
+
+Any rights granted under this License to a person or entity terminate automatically upon that person or entity's violation of Section 4.
+
+Such rights may be reinstated only with the express written permission of the applicable copyright holder.
+
+Termination does not affect rights independently granted to other recipients who remain in compliance with this License.
+
+## 8. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+**AI may assist development. AI may not train on this Software without permission.**
